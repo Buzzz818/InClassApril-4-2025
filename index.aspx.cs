@@ -17,8 +17,17 @@ namespace InClassApril_4_2025
 
         private void button1_Click(object sender, EventArgs e)
         {
-            lblResult.Text = "You Clicked!";
+            
 
+            DateTime checkOutDate = calCheckOutDate.SelectedDate;
+            DateTime checkInDate = calCheckInDate.SelectedDate;
+            
+            int daysDifference = (checkOutDate - checkInDate).Days;
+            lblResult.Text = $"you are staying for this many days + {daysDifference}";
+
+            double Price = (daysDifference * 200) * 1.15;
+
+            lblResult.Text = $"Number of days: {daysDifference} Price: $ {Price}";
 
 
         }

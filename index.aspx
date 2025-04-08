@@ -12,10 +12,10 @@
             <asp:Table ID="tblindex" runat="server" Height="111px" Width="158px">
                 <asp:TableRow>
                     <asp:TableCell> 
-                        <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+                        <asp:Calendar ID="calCheckInDate" runat="server"></asp:Calendar>
                     </asp:TableCell>
                     <asp:TableCell>
-                         <asp:Calendar ID="Calendar2" runat="server"></asp:Calendar>
+                         <asp:Calendar ID="calCheckOutDate" runat="server"></asp:Calendar>
                     </asp:TableCell>
                     <asp:TableCell>
                       

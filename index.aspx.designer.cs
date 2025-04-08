@@ -33,22 +33,22 @@ namespace InClassApril_4_2025
         protected global::System.Web.UI.WebControls.Table tblindex;
 
         /// <summary>
-        /// Calendar1 control.
+        /// calCheckInDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar Calendar1;
+        protected global::System.Web.UI.WebControls.Calendar calCheckInDate;
 
         /// <summary>
-        /// Calendar2 control.
+        /// calCheckOutDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar Calendar2;
+        protected global::System.Web.UI.WebControls.Calendar calCheckOutDate;
 
         /// <summary>
         /// lblCheckInDate control.
